@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <title>Electric Car Information with JQuery</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <h1>Electric Car Information with JQuery</h1>
+    <h3>
+      Welcome, please hover over a make to see more information about the
+      company.
+    </h3>
+    <div id="make_list">
+      <p class="make" id="tesla">Tesla</p>
+      <p class="make" id="ford">Ford</p>
+      <p class="make" id="rivian">Rivian</p>
+      <p class="make" id="polestar">Polestar</p>
+    </div>
+    <div id="tesla_info" class="car_info">
+      <p class="full_info">
+        Tesla is the leading electric car manufacturer in the USA. They
+        currently offer 4 models, that account for nearly 70% of the electric
+        vehicle market. They are rapidly growing, posting over 70% year of year
+        growth the past 4 quarters.
+      </p>
+      <img class="img" id="tesla_img"
+        src="https://cdn.motor1.com/images/mgl/Qzq7Z/s3/2021-tesla-model-s-plaid-refresh.webp" />
+    </div>
+    <div class="car_info" id="ford_info">
+      <p class="full_info">
+        Ford's entry into the electric vehicle market
+        includes the stunning Mach-E. In 2021 they revealed plans to make the
+        Ford F-150 lightning. Both of these offerings are sure to satisfy people
+        converting from internal combustion engine vehicles.
+      </p>
+      <img class="img" id="ford_img" src="https://cdn.motor1.com/images/mgl/NRNWX/s3/ford-mustang-mach-e.jpg" />
+    </div>
+    <div class="car_info" id="rivian_info">
+      <p class="full_info">
+        Rivian's electric truck the R1T is pack full of features worthy of the self-branded description of 'Adventure
+        Vehicle'. Rivian has tens of thousands of orders, and although they are havingn difficulty scaling their
+        production, they certainly created a desirable vehicle.
+      </p>
+      <img class=img id="rivian_img"
+        src="https://www.motortrend.com/uploads/sites/5/2021/08/2022-Rivian-R1T-1.jpg?fit=around%7C875:492" />
+    </div>
+
+    <div class="car_info" id="polestar_info">
+      <p class="full_info">
+        Polestar is a swedish automotive brand owned by the Chinese company Geely. Their Polestar 2 is their flagship
+        vehicle in the USA. With its sharp lines, and unique design, it's sure to draw a lot of attention. Boasting
+        400hp, and a range of up to 233 miles, it has certainly claimed its place as a real EV competitor.
+      </p>
+      <img class=img id="polestar_img"
+        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/polestar-2-b011-1618328251.jpg?crop=0.835xw:0.626xh;0.126xw,0.374xh&resize=980:*" />
+    </div>
+    <div class="footer">
+      <p>Double Click to lighten up web page</p>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
