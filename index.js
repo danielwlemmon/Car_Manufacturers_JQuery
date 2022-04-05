@@ -49,3 +49,11 @@ $(document).ready(function () {
     }
   );
 });
+
+$(document).ready(function () {
+  $(".footer").dblclick(function(){
+    $("*").css("background-color", "lightgray");
+    $("#make_list").css("background-color", "gray");
+    $("#make_list p").css("background-color", "gray");
+  });
+});

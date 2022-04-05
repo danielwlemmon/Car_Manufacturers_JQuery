@@ -1,16 +1,20 @@
-*{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #678;
   margin: 0;
-  padding:0;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
-#main{
+#main {
   padding: 10px 10% 10px 10%;
 }
 
 h1 {
-  padding:10px;
+  padding: 10px;
 }
 
 h3 {
@@ -27,7 +31,7 @@ h3 {
 }
 
 #make_list p {
-  padding:10px;
+  padding: 10px;
   background-color: gray;
 }
 
@@ -41,7 +45,7 @@ img {
 
 .car_info {
   padding-top: 10px;
-  display:none;
+  display: none;
   Border: 2px black solid;
   border-radius: 0.5em;
   background-color: lightgray;
@@ -58,7 +62,7 @@ img {
   bottom: 0;
   width: 100%;
   height: 40px;
-  color: white;
+  color: lightgray;
   text-align: center;
 }
 
